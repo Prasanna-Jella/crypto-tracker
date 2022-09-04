@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--     bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   <!--     css file link -->
+        <link rel="stylesheet" href="app.css">
+    <title>Crypto Tracker</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <!--             heading and subheading -->
+            <h1 class="col-md-7 text-center mt-2">Crypto Tracker</h1>
+            <h4 class="col-md-7 text-center mt-2">By Prasanna_Jella</h4>
+            <div class="col-md-6 row justify-content-center main fix" id="allContaint">
+                <div class="col-10">
+                <!--      form -->
+                    <form action="" id="CoinSearchForm">
+                        <div class="form-row">
+                            <div class="col-12 form-group">
+                                <label for="xyz" style="font-weight: 700;">Coin Type</label>
+                                <!--  drop down menu of crypto currencies -->
+                                <select name="CoinType" class="form-control" id="xyz">
+                                    <option value="bitcoin">Bitcoin</option>
+                                    <option value="ethereum">Ethereum</option>
+                                    <option value="tether">Tether</option>
+                                    <option value="dogecoin">Dogecoin</option>
+                                    <!-- <option value="cordano">Cordano</option> -->
+                                    <option value="ripple">Ripple</option>
+                                    <option value="solana">Solana</option>
+                                    <option value="polkadot">Polkadot</option>
+                                    <option value="dai">Dai</option>
+                                    <option value="gala">Gala</option>
+                                    <option value="terra">Terra</option>
+                                    <option value="helium">Helium</option>
+                                    <option value="neo">Neo</option>
+                                    <option value="cosmos">Cosmos</option>
+                                    <option value="litecoin">Litecoin</option>
+                                    <option value="monero">Monero</option>
+                                    <option value="tron">Tron</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit" class="col-12 btn btn-primary">Get Price</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-7 text-center row justify-content-center align-items-center">
+                <table class="p-4 col-md-7 m-4" border= "2px" style="background-color: white; font-weight: 700;"id="tableResult">
+
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+    <!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/25997205.js"></script>
+<!-- End of HubSpot Embed Code -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3867VNL3VW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3867VNL3VW');
+</script>
+</body>
+
+</html>
