@@ -1,3 +1,4 @@
+CryptoTracker Project : -
 Web App to track the live data like Price, Volume, Change etc for several Cryptocurrencies.
 Fetch live APIs from coinstats using Axios
 Auto price and other data update without refreshing in every 30 seconds
